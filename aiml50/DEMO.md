@@ -128,6 +128,7 @@ After the Machine Learning pipeline finishes, we can update the release pipeline
     * Set the service endpoint to `aiml50-workspace`
     * Set the Model Names to `seer`.  You will not be able to do this until the first ML Pipeline finishes.
     * Click `Add`
+    * Click the lightning icon on the new artifact and enable the `Continuous deployment trigger`
 * Next, open the `Deploy to ACI` environment.
 * Click on `Agent Job`
     * Set `Agent Pool` to `Azure Pipelines`
