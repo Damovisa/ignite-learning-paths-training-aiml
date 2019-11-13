@@ -16,6 +16,9 @@ steps:
   inputs:
     versionSpec: '3.6'
 
+- script: 'echo "Static code analysis started..."'
+  displayName: 'Static code analysis'
+
 - task: AzureCLI@1
   displayName: 'Install Azure ML CLI Extension'
   inputs:
