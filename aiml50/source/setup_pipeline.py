@@ -62,7 +62,7 @@ for opt, arg in opts:
 
 print("Azure ML SDK Version: ", VERSION)
 
-#### Connect to our workspace ####
+#### Connect to our workspace #### 
 ##################################
 
 # workspace
