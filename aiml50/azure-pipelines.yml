@@ -19,6 +19,9 @@ steps:
 - script: 'echo "Static code analysis started..."'
   displayName: 'Static code analysis'
 
+- script: 'echo "Running pytest tests..."'
+  displayName: 'Pytest test cases'
+
 - task: AzureCLI@1
   displayName: 'Install Azure ML CLI Extension'
   inputs:
